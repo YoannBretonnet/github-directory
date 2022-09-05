@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <SearchPage />
-      <FaqPage />
+      <Routes>
+        <Route path="/" element={<SearchPage />} />
+        <Route path="/faq" element={<FaqPage />} />
+      </Routes>
     </div>
   );
 }
