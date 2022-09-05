@@ -30,6 +30,6 @@ function Header() {
       </Menu>
     </>
   );
-}
+} 
 
 export default Header;
