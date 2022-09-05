@@ -1,16 +1,19 @@
-// == Import
-import reactLogo from './react-logo.svg';
-import './styles.css';
+import { Routes, Route } from 'react-router-dom';
 
-// == Composant
+import Header from 'src/components/Header';
+import SearchPage from 'src/components/pages/SearchPage';
+import FaqPage from 'src/components/pages/FaqPage';
+
+import './app.scss';
+
 function App() {
   return (
     <div className="app">
-      <img src={reactLogo} alt="react logo" />
-      <h1>Composant : App</h1>
+      <Header />
+      <SearchPage />
+      <FaqPage />
     </div>
   );
 }
 
-// == Export
 export default App;
