@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 // == Import : local
 // Composants
 import App from './components/App';
+import 'semantic-ui-css/semantic.min.css'
 
 // == Render
 // 1. Élément React racine (celui qui contient l'ensemble de l'app)
