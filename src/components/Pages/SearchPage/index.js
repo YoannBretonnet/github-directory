@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-import SearchBar from 'src/components/SearchBar';
+import SearchBar from '../../SearchBar';
 import Message from 'src/components/Message';
 import RepoResults from 'src/components/RepoResults';
 
