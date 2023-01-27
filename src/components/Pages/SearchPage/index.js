@@ -2,8 +2,8 @@ import { useState } from 'react';
 import axios from 'axios';
 
 import SearchBar from '../../SearchBar';
-import Message from 'src/components/Message';
-import RepoResults from 'src/components/RepoResults';
+import Message from '../../Message';
+import RepoResults from '../../RepoResults';
 
 // == Composant
 function SearchPage() {
