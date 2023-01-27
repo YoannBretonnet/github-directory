@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Card, Icon, Button } from 'semantic-ui-react';
+import { Card, Button } from 'semantic-ui-react';
 
 function RepoResults({ repos, onLoadMoreRepos, isLoading }) {
   return (
