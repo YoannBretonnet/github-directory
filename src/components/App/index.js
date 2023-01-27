@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 
 import Header from '../Header';
-import SearchPage from '../pages/SearchPage';
-import FaqPage from '../pages/FaqPage';
+import SearchPage from '../Pages/SearchPage';
+import FaqPage from '../Pages/FaqPage';
 
 import './app.scss';
 
