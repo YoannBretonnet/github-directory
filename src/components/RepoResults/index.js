@@ -16,13 +16,7 @@ function RepoResults({ repos, onLoadMoreRepos, isLoading }) {
                   header={repo.name}
                   meta={repo.owner.login}
                   description={repo.description}
-                  extra={(
-                    <a>
-                      <Icon name="star outline" />
-                      {repo.stargazers_count} Stars
-                    </a>
-                  )}
-                />
+                  />
               ))
             }
           </Card.Group>
